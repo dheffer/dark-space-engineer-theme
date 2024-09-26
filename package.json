@@ -1,0 +1,12 @@
+{
+    "name": "Dark Space Engineer",
+    "version": "v1.0.0",
+    "main": "src/main.css",
+    "sn": {
+        "main": "src/main.css"
+    }, 
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dheffer/dark-space-engineer-theme.git"
+    }
+}

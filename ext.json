@@ -1,0 +1,18 @@
+{
+    "identifier": "dev.dheffer.dark-space-engineer-theme",
+    "name": "Dark Space Engineer",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "version": "v1.0.0",
+    "description": "Dark Space Engineer theme based on the Nuphy Air96 V2 Space Engineer Dark keycaps",
+    "url": "https://cdn.jsdelivr.net/gh/dheffer/dark-space-engineer-theme@v1.0.0/src/main.css",
+    "download_url": "https://github.com/dheffer/dark-space-engineer-theme/archive/refs/tags/v1.0.0.zip",
+    "marketing_url": "https://github.com/dheffer/dark-space-engineer-theme",
+    "latest_url": "https://listed.to/p/aygO7uWAhQ",
+    "dock_icon": {
+        "type": "circle",
+        "background_color": "#c77658",
+        "foreground_color": "#e7e4df",
+        "border_color": "#928095"
+    }
+}
