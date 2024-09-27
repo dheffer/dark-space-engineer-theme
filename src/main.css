@@ -1,0 +1,169 @@
+:root {
+    /*o------------------------------------------o*/
+      --black-background: #232323;
+      --black-text: #d2cbc5;
+  
+      --light-blue-background: #687385;
+      --light-blue-text: #bebbc1;
+      --light-blue-text-alt: #e79c81;
+      
+      --dark-blue-background: #3d4a74;
+      --dark-blue-text: #c2c4d4;
+      
+      --orange-background: #d06632;
+      --orange-text: #301d19;
+    /*o------------------------------------------o*/
+    /*
+      --sn-stylekit-base-font-size: 14px;
+      
+      --sn-stylekit-font-size-p: 1rem;
+      --sn-stylekit-font-size-editor: 1.21rem;
+      
+      --sn-stylekit-font-size-h6: 0.8rem;
+      --sn-stylekit-font-size-h5: 0.9rem;
+      --sn-stylekit-font-size-h4: 1rem;
+      --sn-stylekit-font-size-h3: 1.1rem;
+      --sn-stylekit-font-size-h2: 1.2rem;
+      --sn-stylekit-font-size-h1: 1.3rem;
+    */
+      
+      --sn-stylekit-neutral-color: var(--light-blue-text-alt);
+      --sn-stylekit-neutral-contrast-color: var(--orange-background);
+      
+      --sn-stylekit-info-color: var(--light-blue-text-alt); /* Inline code and some icons */
+      --sn-stylekit-info-contrast-color: var(--orange-text);
+    /*
+      --sn-stylekit-success-color: #2b9612;
+      --sn-stylekit-success-contrast-color: white;
+    */
+      --sn-stylekit-warning-color: var(--orange-background);
+      --sn-stylekit-warning-contrast-color: var(--orange-background);
+    /*
+      --sn-stylekit-danger-color: #f80324;
+      --sn-stylekit-danger-contrast-color: white;
+    */
+      
+      --sn-stylekit-shadow-color: #c8c8c8; /* Unknown */
+      --sn-stylekit-background-color: var(--black-background); /* Backgrounds */
+      --sn-stylekit-border-color: var(--dark-blue-background); /* Element borders */
+      --sn-stylekit-foreground-color: var(--black-text); /* Text elements */
+      
+      --sn-stylekit-contrast-background-color: var(--light-blue-background); /* Highlighted note */
+      --sn-stylekit-contrast-foreground-color: var(--black-text);
+      --sn-stylekit-contrast-border-color: var(--dark-blue-background); /* Top border */
+      
+      --sn-stylekit-secondary-background-color: var(--light-blue-background); /* Inline code */
+      --sn-stylekit-secondary-foreground-color: var(--black-text); /* Unknown */
+      --sn-stylekit-secondary-border-color: var(--dark-blue-background); /* Unknown */
+    
+    
+      --sn-stylekit-secondary-contrast-background-color: var(--dark-blue-background);
+      --sn-stylekit-secondary-contrast-foreground-color: var(--black-text); /* Unknown */
+      --sn-styleki--secondary-contrast-border-color: #a2a2a2; 
+      
+      --sn-stylekit-editor-background-color: var(--black-background); /* Editor background */
+      --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color); /* Editor text */
+      
+      --sn-stylekit-paragraph-text-color: var(--black-text); /* Unknown */
+    
+      --sn-stylekit-input-placeholder-color: #000000; /* Unknown */
+      --sn-stylekit-input-border-color: #000000; /* Unknown */
+    
+      --sn-stylekit-scrollbar-thumb-color: var(--dark-blue-background); /* Scrollbars */
+      --sn-stylekit-scrollbar-track-border-color: #000000; /* Unknown */
+      
+    /*
+      --sn-stylekit-general-border-radius: 14px;
+    
+      --sn-stylekit-monospace-font: 'Ubuntu Mono', courier, monospace;
+      --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    */
+    
+      --sn-stylekit-grey-1: #000000; /* Unknown */
+      --sn-stylekit-grey-2: #000000; /* Unknown */
+      --sn-stylekit-grey-3: #000000; /* Unknown */ 
+      --sn-stylekit-grey-4: #000000; /* Unknown */
+      --sn-stylekit-grey-4-opacity-variant: #000000; /* Unknown */
+      --sn-stylekit-grey-5: #000000; /* Unknown */
+      --sn-stylekit-grey-6: #000000; /* Unknown */
+    
+    --sn-stylekit-passive-color-0: var(--black-text); /* 'Search' text in search bars */
+    
+    --sn-stylekit-passive-color-1: var(--light-blue-text-alt);  /* Tag icon colours */
+    
+    /*
+      --sn-stylekit-passive-color-2: #7fc194;
+      --sn-stylekit-passive-color-3: #000000;	
+      --sn-stylekit-passive-color-4: var(--background-2);
+    */
+    
+      --sn-stylekit-passive-color-4-opacity-variant: var(--dark-blue-background); /* Tag background colour, progress background of task list preview */
+      --sn-stylekit-passive-color-5: var(--black-text);  /* Background of file upload status */
+      
+    /*
+      --sn-stylekit-passive-color-6: #000000;
+      --sn-stylekit-passive-color-super-light: #000000;
+    */
+    
+      /* ICONS FOR FILE TYPES */
+      --sn-stylekit-accessory-tint-color-1: var(--dark-blue-background);
+      --sn-stylekit-accessory-tint-color-2: var(--sn-stylekit-accessory-tint-color-1);
+      --sn-stylekit-accessory-tint-color-3: var(--sn-stylekit-accessory-tint-color-1);
+      --sn-stylekit-accessory-tint-color-4: var(--sn-stylekit-accessory-tint-color-1);
+      --sn-stylekit-accessory-tint-color-5: var(--sn-stylekit-accessory-tint-color-1);
+      --sn-stylekit-accessory-tint-color-6: var(--sn-stylekit-accessory-tint-color-1);
+    
+      --modal-background-color: var(--sn-stylekit-background-color);
+    
+      --editor-header-bar-background-color: var(--sn-stylekit-background-color);
+      /*--editor-background-color: var(--sn-stylekit-editor-background-color);*/
+      --editor-foreground-color: var(--foreground-be);
+    
+    
+      --editor-title-bar-border-bottom-color: var(--light-blue-background);
+      --editor-title-input-color: var(--foreground-be); /* Editor title */
+    
+    /*
+      --editor-pane-background-color: var(--sn-stylekit-background-color);
+      --editor-pane-editor-background-color: var(--sn-stylekit-background-color);
+      --editor-pane-editor-foreground-color: #ffffff;
+      --editor-pane-component-stack-item-background-color: #000000;
+    */
+      
+      --text-selection-color: var(--black-text); /* Selected text */
+      --text-selection-background-color: var(--light-blue-background); /* Selected text background */
+    /*
+      --note-preview-progress-color: #000000;
+      --note-preview-progress-background-color: var(--sn-stylekit-passive-color-4-opacity-variant);
+    
+      --note-preview-selected-progress-color: #000000;
+      --note-preview-selected-progress-background-color: #000000;
+    */
+    
+      --items-column-background-color: var(--sn-stylekit-background-color); /* Notes header section */
+      --items-column-items-background-color: var(--sn-stylekit-background-color); /* Notes rows */
+    /*
+      --items-column-border-left-color: var(--sn-stylekit-border-color); 
+      --items-column-border-right-color: var(--sn-stylekit-border-color);
+    */
+      --items-column-search-background-color: var(--black-text); /* Unknown */
+      --item-cell-selected-background-color: var(--sn-stylekit-contrast-background-color);
+      --item-cell-selected-border-left-color: var(--sn-stylekit-info-color);
+    
+      /* SIDEBAR */
+      --navigation-column-background-color: var(--light-blue-background); /* Sidebar colour */
+      --navigation-section-title-color: var(--light-blue-text); /* Sidebar titles */
+      --navigation-item-text-color: var(--light-blue-text); /* Sidebar text */
+      --navigation-item-count-color: var(--light-blue-text); /* Sidebar count values */
+      --navigation-item-selected-background-color: var(--dark-blue-background);
+      
+      --preferences-navigation-icon-color: var(--black-text);
+      --preferences-navigation-selected-background-color: var(--black-background);
+    
+      --dropdown-menu-radio-button-inactive-color: var(--sn-stylekit-passive-color-1);
+      
+      --panel-resizer-background-color: var(--dark-blue-background);
+      --link-element-color: var(--light-blue-background);
+  
+  }

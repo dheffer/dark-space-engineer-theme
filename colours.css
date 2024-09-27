@@ -1,0 +1,21 @@
+/*
+https://imagecolorpicker.com
+https://nuphy.com/cdn/shop/files/240227-04_1800x_3bef7406-a33b-4d29-b890-40ed98c847b9_1800x1800.jpg?v=1712736243
+
+hex
+*/
+:new {
+    --black-background: #232323;
+    --black-text: #d2cbc5;
+
+    --light-blue-background: #687385;
+    --light-blue-text: #bebbc1;
+    --light-blue-text-alt: #e79c81;
+    
+    --dark-blue-background: #3d4a74;
+    --dark-blue-text: #c2c4d4;
+    
+    --orange-background: #d06632;
+    --orange-text: #301d19;
+    
+}
